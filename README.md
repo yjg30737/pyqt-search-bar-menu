@@ -1,7 +1,7 @@
 # pyqt-search-bar-menu
 PyQt QMenu which contains search bar as first item
 
-<b>Note: I found that toggled button of search bar at the right is unnecessary for this. So i'm working on making it not interactive in any way.</b> 
+<b>Note: I found that toggled search button of search bar at the right is unnecessary for this. So i'm working on making it not interactive in any way.</b> 
 
 ## Requirements
 * PyQt5 >= 5.8
@@ -10,7 +10,7 @@ PyQt QMenu which contains search bar as first item
 ```pip3 install git+https://github.com/yjg30737/pyqt-search-bar-menu.git --upgrade```
 
 ## Included Packages
-* <a href="https://github.com/yjg30737/pyqt-search-bar.git">pyqt-search-bar</a>
+* <a href="https://github.com/yjg30737/pyqt-search-bar.git">pyqt-search-bar</a> - Search bar at the top
 
 ## Feature
 * Search bar is at the very top of the menu, let user search ```QAction```'s text. At this time menu list works like a completer.   
