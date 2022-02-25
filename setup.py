@@ -11,6 +11,6 @@ setup(
     url='https://github.com/yjg30737/pyqt-search-bar-menu.git',
     install_requires=[
         'PyQt5>=5.8',
-        'pyqt-search-bar @ git+https://git@github.com/yjg30737/pyqt-search-bar.git@main'
+        'pyqt-auto-search-bar @ git+https://git@github.com/yjg30737/pyqt-auto-search-bar.git@main'
     ]
 )
