@@ -11,7 +11,12 @@ PyQt QMenu which contains search bar as first item
 * <a href="https://github.com/yjg30737/pyqt-search-bar.git">pyqt-search-bar</a>
 
 ## Examples
-Code Sample
+### Simple Code Sample
+```python
+searchBarMenu = SearchBarMenu('Menu', self)
+searchBarMenu.addAction('Action')
+```
+### Executable Code Sample
 ```python
 from PyQt5.QtWidgets import QMainWindow, QApplication
 from pyqt_search_bar_menu import SearchBarMenu
@@ -46,7 +51,7 @@ if __name__ == "__main__":
     app.exec_()
 ```
 
-Result
+### Result
 
 ![image](https://user-images.githubusercontent.com/55078043/155634888-eed734ca-978b-484c-91f5-5f2c37669fca.png)
 
