@@ -10,6 +10,9 @@ PyQt QMenu which contains search bar as first item
 ## Included Packages
 * <a href="https://github.com/yjg30737/pyqt-search-bar.git">pyqt-search-bar</a>
 
+## Feature
+* Search bar is at the very top of the menu, let user search ```QAction```'s text. At this time menu list works like a completer.   
+
 ## Examples
 ### Simple Code Sample
 ```python
