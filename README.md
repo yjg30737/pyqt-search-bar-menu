@@ -1,7 +1,7 @@
 # pyqt-search-bar-menu
 PyQt QMenu which contains search bar as first item
 
-<b>Note: I found that toggled button of search bar at the right is unnecessary for this. So i'm working on making it not interactive.</b> 
+<b>Note: I found that toggled button of search bar at the right is unnecessary for this. So i'm working on making it not interactive in any way.</b> 
 
 ## Requirements
 * PyQt5 >= 5.8
