@@ -1,4 +1,5 @@
 from PyQt5.QtWidgets import QMenu, QWidgetAction, QAction
+from pyqt_search_bar import SearchBar
 
 
 class SearchBarMenu(QMenu):
