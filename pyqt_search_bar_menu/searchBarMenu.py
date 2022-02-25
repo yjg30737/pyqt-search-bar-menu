@@ -29,10 +29,7 @@ class SearchBarMenu(QMenu):
             for action in actions:
                 action_text = action.text()
                 if action_text.startswith(text):
-                    if action.isVisible():
-                        pass
-                    else:
-                        action.setVisible(True)
+                    action.setVisible(not action.isVisible())
                 else:
                     action.setVisible(False)
         else:
