@@ -1,1 +1,1 @@
-git+https://git@github.com/yjg30737/pyqt-auto-search-bar.git@main
+pyqt-auto-search-bar>=0.0.1
