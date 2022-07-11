@@ -20,6 +20,6 @@ setup(
     long_description=long_description,
     install_requires=[
         'PyQt5>=5.8',
-        'pyqt-auto-search-bar>=0.0.1'
+        'pyqt-instant-search-bar>=0.0.1'
     ]
 )

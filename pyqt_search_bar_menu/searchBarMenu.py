@@ -1,5 +1,5 @@
 from PyQt5.QtWidgets import QMenu, QWidgetAction, QAction
-from pyqt_auto_search_bar import AutoSearchBar
+from pyqt_instant_search_bar import InstantSearchBar
 
 
 class SearchBarMenu(QMenu):
@@ -9,7 +9,7 @@ class SearchBarMenu(QMenu):
         self.__initUi()
 
     def __initUi(self):
-        searchBar = AutoSearchBar()
+        searchBar = InstantSearchBar()
         searchLineEdit = searchBar.getSearchBar()
         searchLineEdit.textChanged.connect(self.__searchLineEditTextChanged)
         searchAction = QWidgetAction(self)
