@@ -8,7 +8,7 @@ PyQt QMenu which contains auto search bar as first item
 `python -m pip install pyqt-search-bar-menu`
 
 ## Included Packages
-* <a href="https://github.com/yjg30737/pyqt-auto-search-bar.git">pyqt-auto-search-bar</a> - Search bar at the top
+* <a href="https://github.com/yjg30737/pyqt-auto-search-bar.git">pyqt-instant-search-bar</a> - Search bar at the top
 
 ## Feature
 * Search bar is at the very top of the menu, let user search `QAction`'s text. At this time menu list works like a completer.   
