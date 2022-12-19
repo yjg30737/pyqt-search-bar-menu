@@ -37,7 +37,7 @@ class MainWindow(QMainWindow):
         searchBarMenu = SearchBarMenu('A Bunch of Actions', self)
 
         for i in range(5):
-            action = searchBarMenu.addAction(f'Action{i+1}')
+            searchBarMenu.addAction(f'Action{i+1}')
 
         filemenu.addMenu(searchBarMenu)
 
